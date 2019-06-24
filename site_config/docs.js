@@ -5,47 +5,36 @@ export default {
                 title: 'User Guide',
                 children: [
                     {
-                        title: 'Tutorial',
-                        children: [
-                            {
-                                title: 'Introduction to Kruise',
-                                link: '/en-us/docs/introduction.html',
-                            },
-                            {
-                                title: 'Quick Start',
-                                link: '/en-us/docs/quick-start.html',
-                            },
-                        ],
+                        title: 'Introduction to kruise',
+                        link: '/en-us/docs/quick-start.html',
                     },
                     {
-                        title: 'Documentation',
-                        children: [
-                            {
-                                title: 'Advanced StatefulSet',
-                                link: '/en-us/docs/advanced_statefulset.html',
-                            },
-                            {
-                                title: 'BroadcastJob',
-                                link: '/en-us/docs/broadcastjob.html',
-                            },
-                            {
-                                title: 'SidecarSet',
-                                link: '/en-us/docs/sidecarset.html',
-                            }
-                        ],
+                        title: 'Prerequisites',
+                        link: '/en-us/docs/quick-start.html',
                     },
                     {
-                        title: 'Case Studies',
-                        children: [
-                            {
-                                title: 'Guestbook',
-                                link: '/en-us/docs/guestbook.html',
-                            }
-                        ],
+                        title: 'Installing the CRDs',
+                        link: '/en-us/docs/quick-start.html',
                     },
                     {
-                        title: 'Contribution',
-                        link: '/en-us/docs/contribution.html'
+                        title: 'Using Advanced StatefulSet Examples',
+                        link: '/en-us/docs/quick-start.html',
+                    },
+                    {
+                        title: 'Using BroadcastJob Examples',
+                        link: '/en-us/docs/quick-start.html',
+                    },
+                    {
+                        title: 'Using SidecasSet Examples',
+                        link: '/en-us/docs/quick-start.html',
+                    },
+                    {
+                        title: 'Deploying the Guestbook Apps',
+                        link: '/en-us/docs/quick-start.html',
+                    },
+                    {
+                        title: 'How to Contribute',
+                        link: '/en-us/docs/quick-start.html',
                     }
                 ],
             },
